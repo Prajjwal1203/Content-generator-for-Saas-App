@@ -16,21 +16,13 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#Project Description
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This Content Generator app creates content for saas app based on the command given to them with the help of Gemini API.
+This Project is build with the help of Nextjs, Typescript, Clerk for authentication,backend setup using Drizzle ORM.
+Here are some Prototype images of the project which will show the complete working of the project.
 
-## Learn More
+![Screenshot 2024-09-23 181227](https://github.com/user-attachments/assets/abfe719f-3fd3-4bad-9308-906f31a050aa)
+![Screenshot 2024-09-23 181248](https://github.com/user-attachments/assets/8381c5b5-2171-4fa7-9661-05e0e3e6ee77)
+![Screenshot 2024-09-23 181422](https://github.com/user-attachments/assets/8b614452-4406-4363-8310-07540daa2b32)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
