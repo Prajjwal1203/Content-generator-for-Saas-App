@@ -25,6 +25,10 @@ function CreateNewContent(props:PROPS) {
   const[aiOutput,setAiOutput] = useState<string>('');
   const{user} = useUser();
 
+{ /* if (!user) {
+    return <div>You must be logged in to access this page.</div>
+  }*/}
+
   const GenerateAIContent= async(formData:any)=>
   {
     setLoading(true);
@@ -42,16 +46,19 @@ function CreateNewContent(props:PROPS) {
 
   const SaveInDb=async(formData:any,slug:any,aiResp:string)=>
   {
+    try{
     const result =await db.insert(AIOutput).values({
       formData:formData,
       templateSlug:slug,
       aiResponse:aiResp,
       createdBy:user?.primaryEmailAddress?.emailAddress,
       createdAt:new Date().toLocaleDateString("en-GB")
-
-       
     })
+  }catch(error)
+  {
+    console.error(error);
   }
+}
 
   return (
 
