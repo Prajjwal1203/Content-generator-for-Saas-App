@@ -3,6 +3,7 @@ import '@toast-ui/editor/dist/toastui-editor.css';
 import { Editor } from '@toast-ui/react-editor';
 import { Button } from '@/components/ui/button';
 import { Copy } from 'lucide-react';
+import { types } from 'util';
 
 interface props{
   aiOutput:string;
@@ -11,6 +12,7 @@ interface props{
 function OutputSection({aiOutput}:props) {
 
   const editorRef:any=useRef();
+  
   useEffect(()=>
   {
     const editorInstance=editorRef.current.getInstance();

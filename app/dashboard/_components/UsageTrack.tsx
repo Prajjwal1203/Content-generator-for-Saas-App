@@ -1,4 +1,4 @@
-"use client"
+/*"use client"
 import { Button } from '@/components/ui/button'
 import { db } from '@/utils/db';
 import { AIOutput } from '@/utils/schema';
@@ -35,7 +35,7 @@ GetTotalUsage(result)
     });
    console.log(total);
    }
-  }*/
+  }*
 
 
 
@@ -58,10 +58,10 @@ GetTotalUsage(result)
 }
 
 
-export default UsageTrack
+export default UsageTrack*/
 
 
-/*"use client"
+"use client"
 import { Button } from '@/components/ui/button'
 import React, { useContext, useEffect, useState } from 'react'
 import { db } from '@/utils/db'
@@ -156,4 +156,4 @@ const Usage = () => {
   )
 }
 
-export default Usage*/
+export default Usage
