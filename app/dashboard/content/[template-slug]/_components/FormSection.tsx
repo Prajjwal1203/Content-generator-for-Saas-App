@@ -6,13 +6,13 @@ import { Textarea } from '@/components/ui/textarea'
 import { Loader2Icon } from 'lucide-react'
 import Image from 'next/image'
 import React, { useState } from 'react'
-
-
 interface PROPS{
   selectedTemplate?:TEMPLATE;
   userFormInput:any,
   loading:boolean
 }
+
+
 
 
 function FormSection({selectedTemplate,userFormInput,loading}:PROPS) {
