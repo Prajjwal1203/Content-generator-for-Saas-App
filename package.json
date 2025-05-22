@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "next start",
-    "build": "npm install --legacy-peer-deps && next build",
-    "dev": "npm install --legacy-peer-deps && next dev",
+    "build": "next build",
+    "dev": "next dev",
     "lint": "next lint",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
@@ -16,9 +16,10 @@
     "@google/generative-ai": "^0.19.0",
     "@neondatabase/serverless": "^0.9.5",
     "@radix-ui/react-icons": "^1.3.0",
-    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-slot": "^1.2.3",
+    "autoprefixer": "^10.4.21",
     "axios": "^1.7.7",
-    "class-variance-authority": "^0.7.0",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.33.0",
     "lucide-react": "^0.436.0",
@@ -27,7 +28,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-quill": "^2.0.0",
-    "tailwind-merge": "^2.5.2",
+    "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
@@ -35,8 +36,8 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "drizzle-kit": "^0.31.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5"
   }
 }
