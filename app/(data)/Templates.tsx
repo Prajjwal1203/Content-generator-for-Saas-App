@@ -17,7 +17,8 @@ export default[
       {
         label:'Enter blog outline',
         field:'textarea',
-        name:'outline'
+        name:'outline',
+        required:true
       }
     ] 
   },
@@ -40,7 +41,8 @@ export default[
       {
         label:'Enter blog Content',
         field:'textarea',
-        name:'outline'
+        name:'outline',
+        required:true
       }
     ] 
   },
@@ -61,11 +63,12 @@ export default[
         name:'niche',
         required:true
       },
-     {/* {
+      {
         label:'Enter Blog Topic Ideas',
         field:'textarea',
-        name:'outline'
-      } */}
+        name:'outline',
+        required:true
+      } 
     ] 
   },
 
@@ -88,7 +91,8 @@ export default[
       {
         label:'Enter Youtube SEO Title',
         field:'textarea',
-        name:'outline'
+        name:'outline',
+        required:true
       }
     ] 
   },
@@ -112,7 +116,8 @@ export default[
       {
         label:'Enter Youtube Description',
         field:'textarea',
-        name:'outline'
+        name:'outline',
+        required:true
       }
     ] 
   },
@@ -135,7 +140,8 @@ export default[
       {
         label:'Enter Youtube Tags here',
         field:'textarea',
-        name:'outline'
+        name:'outline',
+        required:true
       }
     ] 
   },
@@ -156,6 +162,12 @@ export default[
         name:'niche',
         required:true
       },
+      {
+        label:'Enter your article here',
+        field:'textarea',
+        name:'outline',
+        required:true
+      }
     ] 
   },
 
@@ -172,8 +184,16 @@ export default[
      {
         label:'Enter text that you want to re-write or improve',
         field:'textarea',
-        name:'Text to improve'
+        name:'Text to improve',
+        required:true
+      },
+      {
+        label:'Enter your text here',
+        field:'textarea',
+        name:'outline',
+        required:true
       }
+
     ] 
   },
 
@@ -190,7 +210,14 @@ export default[
       {
         label:'Enter Emojis to be added',
         field:'textarea',
-        name:'outline'
+        name:'outline',
+        required:true
+      },
+      {
+        label:'Enter your text here',
+        field:'textarea',
+        name:'Text to improve',
+        required:true
       }
     ] 
   },
@@ -211,6 +238,12 @@ export default[
         name:'niche',
         required:true
       },
+      {
+        label:'Enter your post here',
+        field:'textarea',
+        name:'outline',
+        required:true
+      }
     ] 
   },
 
@@ -230,6 +263,12 @@ export default[
         name:'niche',
         required:true
       },
+      {
+        label:'Enter your post here',
+        field:'textarea',
+        name:'outline',
+        required:true
+      }
     ] 
   },
 
@@ -248,6 +287,12 @@ export default[
             name: 'keywords',
             required:true
         },
+        {
+            label: 'Enter your post here',
+            field: 'textarea',
+            name: 'outline',
+            required:true
+        }
        
     ]
 },
@@ -267,6 +312,12 @@ export default[
           name: 'inputText',
           required:true
       },
+      {
+          label: 'Enter your text here',
+          field: 'textarea',
+          name: 'outline',
+          required:true
+      }
      
   ]
 },
@@ -286,6 +337,12 @@ export default[
           name: 'codeDesscripton',
           required:true
       },
+      {
+          label: 'Enter code language',
+          field: 'input',
+          name: 'codeLanguage',
+          required:true
+      }
      
   ]
 },
@@ -304,6 +361,12 @@ export default[
           name: 'codeInput',
           required:true
       },
+      {
+          label: 'Enter code language',
+          field: 'input',
+          name: 'codeLanguage',
+          required:true
+      }
      
   ]
 },
